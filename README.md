@@ -1,3 +1,5 @@
+[![Python application](https://github.com/nghianhh/Cloud-Based-Development/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/nghianhh/Cloud-Based-Development/actions/workflows/pythonapp.yml)
+
 # Overview
 
 This project is a cloud based development project, using python programing language, suggestion version is python 3.10.
