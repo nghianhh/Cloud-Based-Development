@@ -4,12 +4,12 @@ This project is a cloud based development project, using python programing langu
 
 ## Project Plan
 
-* Trello board - https://trello.com/b/ZhLaXWJ0/Udacity-Cloud-Devops-2
-* Spreadsheet that includes the original and final project plan - 
+* [Trello board](https://trello.com/b/ZhLaXWJ0/Udacity-Cloud-Devops-2)
+* [Spreadsheet](https://github.com/nghianhh/Cloud-Based-Development/blob/main/Udacity-Cloud-Devops-2-spreadsheet.xlsx)
 
 ## Architecture
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Architecture.jpg)
 
 ## Instructions
 
@@ -19,7 +19,7 @@ In Azure Cloud Shell, clone the repo:
 ```
 git clone https://github.com/nghianhh/Cloud-Based-Development.git
 ```
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Project_Clone.png)
 
 Create a virtual environment:
 ```
@@ -38,13 +38,15 @@ Install dependencies in the virtual environment and run tests:
 make all
 ```
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Make_All_1.png)
+
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Make_All_2.png)
 
 * Run GitHub Actions
 
 Every push to the repository will trigger a GitHub Action which runs a pipeline to test the code.
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Github_Action_Build.png)
 
 * Deployment
 
@@ -64,11 +66,11 @@ Then create a pipeline in Azure Devops to automate the deployment:
 
 Deployed Azure App Service
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Azure_App_Service.png)
 
 Successful deployment
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Success_Deployment.png)
 
 * Testing
 
@@ -79,12 +81,11 @@ Execute the script and check the output
 ./make_predict_azure_app.sh     
 ````
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Make_Predict.png)
 
 You can also access the App in the Browser to see if its up and running
 
-<image>
-
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/Running_App_Service.png)
 
 You can check the log via 
 
@@ -92,9 +93,9 @@ You can check the log via
 https://<your-app-name>.scm.azurewebsites.net/api/logs/docker
 ```
 
-Replace <your-app-name> with your app name.
+Replace ```<your-app-name>``` with your app name.
 
-<image>
+![](https://raw.githubusercontent.com/nghianhh/Cloud-Based-Development/main/Screenshots/App_Service_Log.png)
 
 ## Enhancements
 
