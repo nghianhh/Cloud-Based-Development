@@ -9,11 +9,14 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+  - group: Udacity-Project3
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
+    echo Add other tasks to build, test, and deploy your project. $(azureServiceConnectionId)
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
